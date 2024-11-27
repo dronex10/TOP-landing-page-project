@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: Sans-serif;
+}
+
+.header {
+    display: flex;
+    background-color: #1F2937;
+    padding: 15px 280px;
+}
+
+.header .title {
+    padding: 0;
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 800;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.links a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.header ul {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+
+.maincontent {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: stretch;
+}
+
+.sect1,
+.sect2,
+.sect3,
+.sect4 {
+    flex-grow: 1;
+}
+
+.sect1 {
+    display: flex;
+    background-color: #1F2937;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 100px 280px;
+}
+
+.signupbutton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    background-color: #3882F6;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 25px;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.sect1 .maintext {
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: pink; */
+    max-width: 450px;
+}
+
+.sect1 .maintext h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+.sect1 .maintext p {
+    margin-top: 5px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.sect1 .image {
+    margin-left: auto;
+    flex-grow: 0;
+    padding: 0;
+    background-color: grey;
+    min-width: 601px;
+    min-height: 258px;
+    justify-content: center;
+}
+
+.sect2 {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+}
+
+.sect2 .title {
+    font-size: 20px;
+    color: #1F2937;
+    font-weight: 900;
+    margin: 25px auto;
+}
+
+.sect2 .cardcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px;
+}
+
+.card {
+    display: flex;(
+    height: 200px;
+    width: 200px;
+    border: 4px solid #3882F6;
+    border-radius: 15px;
+}
+
+
+    .card .subtext {
+	display: flex;
+    }
+    
+.sect3 {
+    display: flex;
+    background-color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+}
+
+.sect4 {
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+    background-color: #1F2937;
+}
