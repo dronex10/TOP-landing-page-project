@@ -7,7 +7,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    font-family: Sans-serif;
+    font-family: "Roboto", Sans-serif;
 }
 
 .header {
@@ -121,7 +121,32 @@ body {
     font-weight: 900;
     margin: 25px auto;
 }
-    
+
+.cardcontainer {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-bottom: 100px;
+}
+
+.border {
+    border: 4px solid #3882F6;
+    border-radius: 25px;
+    height: 180px;
+    width: 180px;
+}
+
+.card p {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: 18px;
+    max-width: 188px;
+    padding-top: 5px;
+    color: #1F2937;
+    font-weight: light;
+}
+
 .sect3 {
     display: flex;
     background-color: #E5E7EB;
@@ -130,21 +155,24 @@ body {
     font-size: 32px;
 }
 
-.cardcontainer {
-    display: flex;
-    justify-content: center;
-    gap: 60px;
+.sect3 .quotetext {
+    font-family: "Roboto", sans-serif;
+    max-width: 932px;
+    padding: 100px 0px;
 }
 
-.border {
-    border: 4px solid #3882F6;
-    border-radius: 25px;
-    height: 200px;
-    width: 200px;
+.sect3 .quotetext .quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: lighter;
 }
 
-.card p {
-    text-align: center;
+.sect3 .quotetext .sig {
+    margin-left: auto;
+    font-size: 18px;
+    font-weight: 900;
+    text-align: right;
 }
 
 .sect4 {
@@ -153,6 +181,37 @@ body {
     justify-content: center;
     align-items: center;
     font-size: 32px;
+    color: #F9FAF8;
+}
+
+.sect4 .signupbox {
+    display: flex;
+    margin: 60px 280px;
+    flex-grow: 1;
+    justify-content: space-around;
+    background-color: #3882F6;
+    border-radius: 5px;
+    padding: 50px 0px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.signupsubtext {
+    font-weight: lighter;
+    font-size: 14px;
+}
+
+.bottomsignupbutton {
+    display: flex;
+    background-color: #3882F6;
+    border: 2px solid #F9FAF8;
+    color: #F9FAF8;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    font-size: 18px;
+    padding: 5px 30px;
 }
 
 .footer {
@@ -160,4 +219,12 @@ body {
     flex-direction: column;
     margin-top: auto;
     background-color: #1F2937;
+    color: #E5E7EB;
+}
+
+.footer p {
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+    font-size: 14px;
 }
